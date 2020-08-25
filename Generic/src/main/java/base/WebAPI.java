@@ -110,7 +110,6 @@ public class WebAPI {
 
     @BeforeMethod
     public void setUp(@Optional("https://www.google.com") String url, String browserName, String platform){
-        //System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
         if (platform.equalsIgnoreCase("mac") && (browserName.equalsIgnoreCase("Chrome"))){
             System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver 2");
         }else if (platform.equalsIgnoreCase("windows") && (browserName.equalsIgnoreCase("chrome"))){
