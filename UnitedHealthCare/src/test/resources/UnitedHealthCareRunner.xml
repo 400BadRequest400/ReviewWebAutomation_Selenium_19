@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="United Health Care Automation Test" parallel="false">
+
+    <parameter name="url" value="https://www.unitedhealthcare.com/"/>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="platform" value="mac"></parameter>
+
+
+    <test name="nited Health Care">
+        <classes>
+            <class name=""></class>
+        </classes>
+    </test>
+
+
+</suite>
+
+

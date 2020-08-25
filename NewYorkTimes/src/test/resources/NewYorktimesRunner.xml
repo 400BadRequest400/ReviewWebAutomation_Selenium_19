@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="New York Times Automation Test" parallel="false">
+
+    <parameter name="url" value="https://www.newyorktimes.com/"/>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="platform" value="mac"></parameter>
+
+
+    <test name="New York times">
+        <classes>
+            <class name=""></class>
+        </classes>
+    </test>
+
+
+</suite>
+
+
